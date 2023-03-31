@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MPhys Summary | Evan Jones</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Observational Signatures of the Gas In and Around Galaxies</h1>
+							<p class="major">A summary of my MPhys project at the University of Edinburgh.</p>
+							<p class="major">By Evan Jones.</p>
+						</div>
+						<div class="image">
+							<img src="images/gallery/pubsum_halo4.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>How to study galaxies</h2>
+							<p>A galaxy can be defined as a large amount of gas and stars held together by gravity. Using our Milky Way as an example, they might have 100 billion stars, making up 4% of the total mass. Gas, mainly hydrogen and helium, makes up another 12%, with the remaining 84% being the elusive and infamous dark matter (see <a href="https://www.vox.com/science-and-health/2019/4/2/18282606/milky-way-mass-stars-dark-matter" target="_blank">here</a> for a fun visualisation). On top of the enormous amount of stuff to model, the scales that need to be modelled are vastly different. There is no well-defined edge to galaxies, but they stretch out to millions of light-years, the distance light travels in a year. For comparison, the Sun and Earth are 8 light-minutes apart, and Edinburgh and London are ~0.001 light-seconds apart. Processes on 'small' scales, such as how stars heat up their surrounding environments, will have an effect on the galaxy as a whole.</p>
+							<p>The large difference in sizes and complexity of the processes involved is why it's necessary to model galaxies with simulations, such as those ran by the <a href="https://foggie.science/" target="_blank">FOGGIE project</a>. The process of modelling a galaxy on a computer is a balancing act between making enough approximations that the program runs in a reasonable time, but not so many that the results become inaccurate.</p>
+							<p>The aim of my masters project was to investigate an improvement to these simulation methods, specifically how we model how much of an element is in a given ionization state.</p>
+						</div>
+						<div class="image">
+							<img src="images/gallery/pubsum_halo3.png" alt=""/>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style0 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>What does 'Ionization State' mean, and why do we care?</h2>
+							<p>The ionization state of a particle refers to how many of the electrons surrounding the nucleus have been ejected. When an element is neutral the number of protons in the nucleus and orbiting electrons is the same, as they are attracted to each other. Atoms are ionized when electrons have the energy to overcome the attraction, leaving behind an ion. There are two ways to provide the electron with enough energy to escape:<ol><li>Two particles collide and transfer this energy to the electron, or
+</li><li>A photon (the particle that makes up light) is absorbed by the electron. </li></ol>These correspond to two physical properties of a cloud of gas:<ol><li>The temperature of the gas: hotter gas means the individual particles are moving faster, and
+
+</li><li>The amount of light shining through the cloud: more light means more photons.</li></ol>Knowing these means that we can work out the ionization state of different elements in the cloud. But it also works in reverse; by knowing the ionization state of elements and one of the properties we can calculate the second one. This is one of the things that makes ionization states useful to know, and model accurately.
+</p>
+						</div>
+						<div class="image">
+							<img src="images/atom_diagram.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style0 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>My contribution</h2>
+							<p>My project focused on how the ionization state of gases changes with the metallicity—the proportion of elements that are heavier than helium (which astronomers refer to as 'metals'). Increasing metallicity means that the cloud is able to absorb more light, because metals have more electrons and as such can absorb more photons. If the outside of a cloud of gas can absorb all the light shining on it, then the inside doesn't get any (called self-shielding), and following from the 2nd point above, the ionization state of the cloud is lower.</p>
+
+                            <p>The plots on the left show how the ionization state of oxygen changes with different amounts of light. Where the plot is dark blue the oxygen has all of its electrons, and going through lighter shades of blue and greens more electrons are ejected, until yellow where the oxygen has been fully ionized and there are no more electrons. From top-to-bottom, left-to-right the amount of light shining through a cloud is reduced, and you can see the amount of fully ionized oxygen (yellow) decreases and the unionized oxygen (dark blue) increases.</p>
+						</div>
+						<div class="image">
+							<img src="images/pubsum_change_max_ion_cbar.png" alt="" />
+						</div>
+					</section>
+
+				<!-- Five -->
+ 			<section class="wrapper style1 align-left">
+						<div class="inner">
+							<h2>Results</h2>
+							<p>I looked at eight different ions of four different elements and found that there could be quite large changes (as much as a 50% increase) in the masses present, but that it would actually be quite hard to observe this difference. This is because the current assumption that all gas is at the same metallicity isn't a bad guess. However, there are regions in galaxies where this isn't true so it is useful to continue researching how this would effect our knowledge of galaxies.</p>
+						</div>
+					</section>
+
+
+
+
+<section class="wrapper style1 align-center">
+	<div class="inner">
+	<h2>Thank you for reading!</h2>
+	<p>If you're interested, you can find out more about my project in the <a href="./Project_Report.pdf" target="_blank">report</a>.</p>
+	<p>As a treat, I've included some more examples of simulated galaxies below.</p>
+	<!-- Gallery -->
+	<div class="gallery style2 medium lightbox onscroll-fade-in">
+		<article>
+			<a href="images/gallery/pubsum_halo3.png" class="image">
+				<img src="images/gallery/pubsum_halo3.png" alt="" />
+			</a>
+		</article>
+		<article>
+			<a href="images/gallery/pubsum_halo4.png" class="image">
+				<img src="images/gallery/pubsum_halo4.png" alt="" />
+			</a>
+		</article>
+		<article>
+			<a href="images/gallery/pubsum_halo0.png" class="image">
+				<img src="images/gallery/pubsum_halo0.png" alt="" />
+			</a>
+		</article>
+		<article>
+			<a href="images/gallery/pubsum_halo1.png" class="image">
+				<img src="images/gallery/pubsum_halo1.png" alt="" />
+			</a>
+		</article>
+		<article>
+			<a href="images/gallery/pubsum_halo2.png" class="image">
+				<img src="images/gallery/pubsum_halo2.png" alt="" />
+			</a>
+		</article>
+	</div>
+	</div>
+</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							Website design: Based on <a href="https://html5up.net/story" target="_blank">Story</a> from <a href="http://html5up.net" target="_blank">HTML5 UP</a>. All content is my own.
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
