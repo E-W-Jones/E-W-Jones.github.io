@@ -629,12 +629,12 @@ input, select, textarea {
 					}
 
 				#header nav a .tooltiptext {
+					/* display: block; */
 					visibility: hidden;
-					width: 120px;
-					background-color: black;
+					background-color: rgba(0, 0, 0, 0.75);
 					color: #fff;
 					text-align: center;
-					padding: 5px 0;
+					padding: 7%;
 					border-radius: 6px;
 					opacity: 0;
 					transition: opacity 1s;
@@ -642,10 +642,11 @@ input, select, textarea {
 					/* Position the tooltip text - see examples below! */
 					position: absolute;
 					z-index: 1;
-					width: 120px;
-					top: 100%;
-					left: 50%;
-					margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+					width: 150%;
+					height: fit-content;
+					line-height: 1.5;
+					top: 107%;
+					margin-left: -75%; /*Use half of the width (120/2 = 60), to center the tooltip*/
 				}
 
 				#header nav a .tooltiptext::after {
@@ -656,7 +657,7 @@ input, select, textarea {
 					margin-left: -5px;
 					border-width: 5px;
 					border-style: solid;
-					border-color: transparent transparent black transparent;
+					border-color: transparent transparent rgba(0, 0, 0, 0.75) transparent;
 				}
 
 				#header nav a:hover .tooltiptext {
